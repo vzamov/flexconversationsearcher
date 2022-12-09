@@ -21,7 +21,7 @@ let counter = 0;
   // a promise
 let promise = new Promise(function (resolve, reject) {
     dmin = new Date('2022-01-17 00:00:00.000');
-    dmax = new Date('2022-12-07 23:59:59.000');
+    dmax = new Date('2022-12-09 23:59:59.000');
     resolve(
         client.conversations.v1.conversations
         .list({limit: 1000})
